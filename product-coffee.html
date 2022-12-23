@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Tea - Карточка товара</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="nav__content">
+                    <div class="nav__brand"><a href="#"><img src="./assets/img/logo.png" alt="logo"></a></div>
+                    <div class="nav__links">
+                        <ul>
+                            <li><a href="./index.html">Главная</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Каталог</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="card__wrapper">
+            <div class="container">
+                <div class="card__content">
+                    <div class="card__img">
+                        <img src="./assets/img/card-img.svg" alt="tea">
+                    </div>
+                    <div class="card__info">
+                        <h1 class="main__title">
+                            Наименование чая
+                        </h1>
+                        <p class="main__subtitle">
+                            Молочный улунг
+                        </p>
+                        <div class="card__info-rating">
+                            <div class="catalog__card-rating">
+                                <img src="./assets/img/ico/star.svg" alt="star">
+                                <img src="./assets/img/ico/star.svg" alt="star">
+                                <img src="./assets/img/ico/star.svg" alt="star">
+                                <img src="./assets/img/ico/star.svg" alt="star">
+                                <img src="./assets/img/ico/star-default.svg" alt="star">
+                            </div>
+                            <div class="catalog__card-rating-text">
+                                <h5>4.0 <span>(32 отзыва)</span></h4>
+                            </div>
+                        </div>
+                        <p class="main__subtitle">
+                            Компания Нью Рефайнинг Груп находится в г. Калининграде и имеет свой склад и
+                            представительство в Москве. Завод работает на рынке свежеобжаренного кофе и растворимой
+                            продукции более 15 лет. Завод имеет немецкое оборудование марки Probat по обжарке кофе и
+                            итальянские агломераторы для производства растворимой продукции.
+                        </p>
+                        <div class="card__info-weight">
+                            <div class="card__info-weight-btn">
+                                <form action="#">
+                                    <input type="radio" name="weight-tea" id="weight__item">
+                                    <label for="weight-tea">100</label>
+                                </form>
+                            </div>
+                            <div class="card__info-weight-btn">
+                                <form action="#">
+                                    <input type="radio" name="weight-tea" id="weight__item">
+                                    <label for="weight-tea">150</label>
+                                </form>
+                            </div>
+                            <div class="card__info-weight-btn">
+                                <form action="#">
+                                    <input type="radio" name="weight-tea" id="weight__item">
+                                    <label for="weight-tea">170</label>
+                                </form>
+                            </div>
+                            <div class="card__info-weight-btn">
+                                <form action="#">
+                                    <input type="radio" name="weight-tea" id="weight__item">
+                                    <label for="weight-tea">250</label>
+                                </form>
+                            </div>
+                        </div>
+                        <button class="main__btn">Купить за 250 Р</button>
+                    </div>
+                </div>
+                <div class="info__product">
+                    <div class="product__content-wrapper wrapper">
+                        <div class="product__content-tabs tabs">
+                            <button class="tab outline__btn">Описание</button>
+                            <button class="tab outline__btn">Как готовить?</button>
+                            <button class="tab outline__btn">Отзывы</button>
+                        </div>
+                        <div class="tab_content product__content-tab-item">
+                            <div class="tab_item">
+                                <p class="main__subtitle">Разнообразный и богатый опыт новая модель организационной
+                                    деятельности позволяет оценить
+                                    значение позиций, занимаемых участниками в отношении поставленных задач. Значимость
+                                    этих
+                                    проблем настолько очевидна, что дальнейшее развитие различных форм деятельности в
+                                    значительной степени обуславливает создание модели развития. </p>
+                                <p class="main__subtitle">
+                                    Задача организации, в особенности же рамки и место обучения кадров способствует
+                                    подготовки и реализации систем массового участия. Таким образом укрепление и
+                                    развитие
+                                    структуры способствует подготовки и реализации направлений прогрессивного развития.
+                                </p>
+                                <p class="main__subtitle">
+                                    Товарищи! реализация намеченных плановых заданий обеспечивает широкому кругу
+                                    (специалистов) участие в формировании соответствующий условий активизации. С другой
+                                    стороны реализация намеченных плановых заданий требуют от нас анализа существенных
+                                    финансовых и административных условий.
+                                </p>
+                            </div>
+                            <div class="tab_item">
+                                <p class="main__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam nemo, cumque dolores tempora, magni, facilis amet harum quos quibusdam voluptatibus vel minus voluptatem incidunt fugiat facere natus architecto pariatur?</p>
+                            </div>
+                            <div class="tab_item">
+                                <p class="main__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam nemo, cumque dolores tempora, magni, facilis amet harum quos quibusdam voluptatibus vel minus voluptatem incidunt fugiat facere natus architecto pariatur?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="nav__content">
+                <div class="nav__brand"><a href="#"><img src="./assets/img/logo.png" alt="logo"></a></div>
+                <div class="nav__links">
+                    <ul>
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Каталог</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
